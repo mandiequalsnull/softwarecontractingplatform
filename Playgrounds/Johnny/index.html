@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--BootStrap-->
+    <title>Hodge Podge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<!--This will be the css portion of the website-->
+<style>
+    * {
+        margin: -4px;
+        padding: 0px;
+    }
+    
+    body {
+        background: white;
+    }
+    
+    .wrapper {
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .navbar {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        border: 3px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar div {
+        height: 4.5px;
+        width: 30px;
+        background-color: gray;
+        position: absolute;
+        transition: all 0.5s ease;
+    }
+    
+    .navbar .first {
+        top: 11px;
+        left: 11px;
+    }
+    
+    .navbar .second {
+        top: 23px;
+        left: 11px;
+    }
+    
+    .navbar .third {
+        top: 35px;
+        left: 11px;
+    }
+    
+    .navbar:hover .first {
+        transform: translateY(12px) rotate(45deg);
+        transition: all 0.5s ease;
+    }
+    
+    .navbar:hover .second {
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    
+    .navbar:hover .third {
+        transform: translateY(-12px) rotate(-45deg);
+        transition: all 0.5s ease;
+    }
+    
+    .navbar:hover {
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    
+    .container {
+        height: auto;
+    }
+    
+    .container .logo {
+        position: relative;
+        width: 700px;
+        height: auto;
+        left: 450px;
+    }
+    
+    .contentnav {
+        position: relative;
+        top: 20px;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .content {
+        background-color: #ddd;
+        position: relative;
+        top: 23px;
+        padding: 10px;
+        height: 1600px;
+        /* Should be removed. Only for demonstration */
+    }
+</style>
+
+<div class="container">
+
+    <div class="logo"><img src="img/Genesis-2.png" alt="logo" style="width:40% ">
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div class="contentnav">
+    </div>
+
+    <div class="content">
+
+    </div>
+
+
+</body>
+
+
+
+
+<!--This is the navigation bar-->
+
+
+<!--This is the jumbotron-->
+
+
+
+</html>
