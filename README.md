@@ -5,5 +5,5 @@
 	###Never add the cahnges directly to the main app. Discuss them with the team first. 
 	###Have fun developing! 
 
->Do or do not, ther is not try.
+>Do or do not, ther is no try.
 > - Yoda
